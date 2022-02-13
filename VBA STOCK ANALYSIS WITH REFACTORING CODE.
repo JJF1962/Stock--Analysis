@@ -1,6 +1,51 @@
 # Project Overview Visual Basic Stock Analysis
-  *The project purpose is to resolve the challenges for Module number 2,  Visual Basic for Aplications or VBA, that is a programing language for Microsoft Office applications, allowing to add more analytical power to Excel.
-## Performing Analysis.
+  *The project purpose is to resolve the challenges for Module number 2,  Visual Basic for Aplications or VBA, that is a programing language for Microsoft Office applications,
+  allowing to add more analytical power to Excel. More especifically, it consist in to edit or refactor a code solution provided in the original VBA stock Analysis
+  for the years 2017 and 2018, with the objective to add new functionality, aplied several codification steps learned in this Module 2,  improve the logic of the code, less memory utilization and easier read
+  utilization, and make it easier to read for future readers.
+##  Performing Analysis.
+  * To perform the Analysis, I will go first over the VBA Module 2 class purpose, analysis, challenges and conclusion, as detailed as follows:
 ### Class Purpose
-### Analysis & Challenges
+  * The class purpose was to cover and teach the fundamentals building blocks of programming, learn to code and how to deconstruct a problem and translate the solution into
+  instructions and start to be expose and thinking to programatically analize data, the first thing that we learned that VBA was invented in the 1960s to help teacch programing 
+  concept, and started to be used a s full fledge programming language in the 1990, , called today VBA or VB.NET.
+  * Secondly we learned how to enable the developer tools for Mac and Windows, in my case, that by defaut is not eanable to protect users and computer from malicius virus, I 
+  focuesd on windows, therefore following the video instructions I went to File, selected Excel options, delected customized ribbon, and I enabled the developer tab, after close, 
+  I saw the developer option enable in the tool bar, Permitting to learn and execute this challenge using Visual Basic and Macro tools. Aditionally we learned that the extension is
+  xlsm,  we must only open files from trusted sources.
+  Thirdly we downloaded the  excel file green_stocks.xlsx, but offcourse, we must save the file with other extension (xlsm extension) as mentioned before, forcing us to enable the
+  macros, and we have a new file with an icon i in the excel logo, to protect users to open it if they dont know the source, because might contain a virus. Aditionally we started
+  to learned coding, creating sub routine "sub", how to chec is the macro operate with Sub MacroCheck(), the system automatically add End sub, if important to note that all code
+  must be writte between the subroutine and End Sub. Furthermore we went over the data types such as long, double, string and boolean, measurement of memory, how to create 
+  variables such as Dim, work with worsheets, cells, Range, readability and understand that all mark in green are notes or names for future refernece that no consume space of
+  memory, whitspace, Loops (for) and paterns initialize a variable to hold a sum, set the variable to zero, start a for loop, use a conditional to increase the sum variable by 
+  value and End the loop, also the Anti-patters. Logical operators (both, either or opposite), comparison operators 9<>) conditionals, array, nested loops
+  Fourtly we leraned the research sites such as Official documentation (Microsoft), Stack Overflow, Quora and Expert Blog Posts and how to obtain help or potential solutions to 
+  programatic code issues. 
+  Finally, we learn how to work with reuse code, that is very commun and probably part of our regular job, and specifically used as very good guide to reponse the module challenge,
+  refactoring and creating the code used ine response and calculate the values for All Stock 2018. as well as Static Formatting to add the font and borders, automatically fit 
+  columns widths and conditional formatting for the colors, create a butto, the clear buttom and run the macro, add the start and end time to see the perfornace of the code.
+  and how to disply it.
+   * As required in the previous module work with Git Hub an update worksheets, pictures and writte the README.md 
+### Challenges & Analysis
+   * Challenge, Step 1a. Create a tickerindex variableand set it equal to zero before iterating over all the rows.
+    ** FOR i = 0 To 11
+    ** TickerIndex = tickers (i)
+    ** totalVolume = 0 comment Loop Trough the Tickers
+    ** Comment: the total is eleven (11) tickers, because it is counted from zero to 11 and not from 1 to 12.
+   * Challenge, Step 1b. Create three output arrays: tickervolumes, tickerStarting prices and TickerEnding prices.
+    ** Dim tickerVolumes As Long
+    ** Dim tickerStartingPrices As Single, tickerEndingPrices As Single
+   * Challenge, Step 2a. Create a for loop to initialize the ticker volume to zero.
+    ** Worksheets(yearValue).Activate
+    ** tickerVolumes = 0
+   * Challenge, Step 2b. Create a for loop that will loop over all the rows in the spreadsheet.
+     ** For j = 2 To RowCount
+     ** ' If the next row's ticker doesn't match, increase the tickerIndex.
+           If Cells(j, 1).Value = tickerIndex Then
+     
+     
+     
+   * Challenge, Step 3a. Inside the for loop in Step 2b that increases the current tickerVolumes 9stock ticker volume) variable and adds the ticker volume for the current stock ticker 
+   
 ### Conclusion
