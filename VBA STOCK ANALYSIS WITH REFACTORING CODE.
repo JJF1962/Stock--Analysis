@@ -27,7 +27,7 @@
   columns widths and conditional formatting for the colors, create a butto, the clear buttom and run the macro, add the start and end time to see the perfornace of the code.
   and how to disply it.
    * As required in the previous module work with Git Hub an update worksheets, pictures and writte the README.md 
-### Challenges & Analysis
+### Challenges & Run Stock Analysis
    * Challenge, Step 1a. Create a tickerindex variableand set it equal to zero before iterating over all the rows.
     ** FOR i = 0 To 11
     ** TickerIndex = tickers (i)
@@ -45,5 +45,8 @@
            If Cells(j, 1).Value = tickerIndex Then
    * Challenge, Step 3a. Inside the for loop in Step 2b that increases the current tickerVolumes 9stock ticker volume) variable and adds the ticker volume for the current 
    stock ticker. 
-   * Challenge, Step 3c, Write an if-then statement to check if the current row is the last row with the selected tickerindex. If it is, then assiign the current closing price
+   *  Challenge, Step 3b, Write an if-then statement to check if the current row is the last row with the selected tickerindex. If it is, then assiign the current closing price to thetickerStartingPrices variable.
+   * Challenge, Step 3c, Write an if-then statement to check if the current row is the last row with the selected tickerindex. If it is, then assiign the current closing price to thetickerEndingPrices variable.
+   * Challenge Step 3d, Write a scrp that increases the ticker index if the next row's ticker doesn't match the previous row's ticker.
+   * Challenge Step 4, Use a for loop to loop through your arrays (tickers, tickervolumes, tickerStartingPrices and tickerEndingPrices to output the "Ticker", "Total Daily Volume". and "Return" columns in your spreadsheet.
 ### Conclusion
