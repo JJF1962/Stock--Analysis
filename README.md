@@ -9,6 +9,7 @@ The code was refactored is fully described in the Microsoft Visual Basic Editor 
 Please see below the 2 charts with the results for 2017 and 2018, respectivelly.
 
 ! [Stock Analysis 2017](https://github.com/JJF1962/Stock--Analysis/blob/main/Capture%20Results%20%26%20Enable%20Time%202017%20Refactor%20Analysis.PNG)
+
 ! [Stock Analysis 2018](https://github.com/JJF1962/Stock--Analysis/blob/main/Capture%20Results%20%26%20Enable%20Time%202018%20Refactor%20Analysis.PNG)
 
 The Tickers have a better retuns in 2017 than 2018, showing a positive results  with the exception of TERP with minus 7.2%, However, that was not the case in the year 2018, were ten Tickers show negative results , and only two Tickers ENPH and Run shows positive results, looks like is very risky concentrate al the investment in DQ, that have a great performance  in 2017 with a a return of 199.4%, but in 2018 has anegative return of - 62.6%.
