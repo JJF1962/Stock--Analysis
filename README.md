@@ -12,7 +12,8 @@ Please see below the 2 charts with the results for 2017 and 2018, respectivelly.
 
 The Tickers have a better retuns in 2017 than 2018, showing a positive results  with the exception of TERP with minus 7.2%, However, that was not the case in the year 2018, were ten Tickers show negative results , and only two Tickers ENPH and Run shows positive results, looks like is very risky concentrate al the investment in DQ, that have a great performance  in 2017 with a a return of 199.4%, but in 2018 has anegative return of - 62.6%.
 The refactored code ran for 2017 in 1.53 secs and in 2018 in 1.43 secs, as shown in the previos pictures, however the original code ran as shown in the figures below
-  ![This is an image] ()
+  ![This is an image] (https://github.com/JJF1962/Stock--Analysis/blob/main/Capture%20Elapse%20Run%20time%20original%20code%202018%20final.PNG)
   ![this is an image](https://github.com/JJF1962/Stock--Analysis/blob/main/Capture%20Elapse%20Run%20time%20original%20code%202017%20final.PNG)
-  
+ As per the previou pictures, the original code in 2017 run faster in 0.21 seconds and the refactored one 1.53 seconds, amd in 2018 as well
 ##  Summary
+in summary the code provide a better vision that will allow to make an easier investment decisitions, however is a long process,Refactoring presents some advantages, and well applied help to improved performance, data presentation and probably future use of the code, additionally, the refactor code may be made for future use. But refactoring present some disadvantages as well, require extensive time commitment, and probably resources, I looking to learn and see other more efficient programming languages in the future.
